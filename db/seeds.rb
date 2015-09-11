@@ -1,4 +1,4 @@
-areas_of_expertise = %w(Maths Physics Astronomy Medicine French German Latin Chemistry Biology Religion)
+areas_of_expertise = %w(Astronomy Biology Chemistry French German Latin Maths Medicine Physics Religion)
 
 areas_of_expertise.each do |name|
   Expertise.create(name: name)
@@ -33,5 +33,5 @@ professors = [
 ]
 
 professors.each do |name|
-  Professor.create(name: name, expertise_ids: (1...10).to_a.shuffle.take(rand(1..5)))
+  Professor.create(name: name, expertise_ids: (1...11).to_a.shuffle.take(rand(1..5)))
 end
