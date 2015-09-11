@@ -2,7 +2,7 @@
 
 A demo on persisting checkbox data to a database to accompany an article on SitePoint.
 
-Article URL: 
+Article URL: [http://www.sitepoint.com/save-multiple-checkbox-values-database-rails](http://www.sitepoint.com/save-multiple-checkbox-values-database-rails)
 
 To run the demo:
 
@@ -11,4 +11,4 @@ To run the demo:
 - rake db:migrate
 - rake db:seed
 - rails s
-- Visit http://localhost:3000/professors
+- Visit [http://localhost:3000/professors](http://localhost:3000/professors)
